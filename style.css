@@ -59,13 +59,20 @@ header > h1{
   text-align: center;
 }
 
-.choice img{
-  border-radius: 50%;
-}
-
 .choice{
   display: inline-block;
-  border: 4px solid #fff;
   border-radius: 50%;
   margin: 0 20px;
+}
+
+.choice img{
+  border-radius: 50%;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.choice:hover{
+  cursor: pointer;
+  background: red;
 }
